@@ -4,7 +4,7 @@ class FolderDeclutter < Formula
     url "https://github.com/ricardodantas/folder-declutter/releases/download/v0.4.0/folder-declutter-macos-0.4.0"
     sha256 "44e4369d5752597a67638b981d3ccc1ae06d3a7d35ed1d00b73a6debd4b13d40"
 
-    depends_on "rustup" => :build
+    depends_on "rust" => :build
 
     def install
       system "cargo", "install", *std_cargo_args
