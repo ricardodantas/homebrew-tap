@@ -1,8 +1,8 @@
 class FolderDeclutter < Formula
     desc "Folder Declutter is a command-line and library utility written in Rust that helps you free up disk space by automatically deleting files that haven't been modified in a specified number of days."
     homepage "https://github.com/ricardodantas/folder-declutter"
-    url "https://github.com/ricardodantas/folder-declutter/archive/refs/tags/v0.4.13.tar.gz"
-    sha256 "9e4a1b148656880b12863f0ac86fc1d9d13d3cc74fd6ee5fb14fc0ee1651000d"
+    url "https://github.com/ricardodantas/folder-declutter/archive/refs/tags/v0.4.14.tar.gz"
+    sha256 "5ba74ab07244782d9058c5d6dea4bb9ae3e9d4f072a928543f7b79fbcf17da15"
 
     depends_on "rust" => :build
 
