@@ -1,8 +1,8 @@
 class Feedo < Formula
   desc "A beautiful, fast, and modern terminal RSS reader built with Rust"
   homepage "https://github.com/ricardodantas/feedo"
-  url "https://github.com/ricardodantas/feedo/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "c5af14af36a99b3496b52c76f60ae48f761ed9eb8bc214691cf9d55956e9e7fc"
+  url "https://github.com/ricardodantas/feedo/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "3972aadb0094a0213000f311a64534558f1e4ff0a8033b17eaf00cd3cb28b367"
   license "MIT"
 
   depends_on "rust" => :build
