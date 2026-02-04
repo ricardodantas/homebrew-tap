@@ -1,8 +1,8 @@
 class Hazelnut < Formula
   desc "Terminal-based automated file organizer inspired by Hazel"
   homepage "https://github.com/ricardodantas/hazelnut"
-  url "https://github.com/ricardodantas/hazelnut/archive/refs/tags/v0.2.6.tar.gz"
-  sha256 "52cc06ee6ce0bd154437bb15c2c5e7fe47066aeab49f789a00ce8c8ea331875c"
+  url "https://github.com/ricardodantas/hazelnut/archive/refs/tags/v0.2.7.tar.gz"
+  sha256 "dfd56454aae986d7674c19700194fe512829f6e92bb28f3828815573a04dff25"
   license "MIT"
 
   depends_on "rust" => :build
