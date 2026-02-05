@@ -1,28 +1,28 @@
 class Feedo < Formula
   desc "A beautiful, fast, and modern terminal RSS reader built with Rust"
   homepage "https://github.com/ricardodantas/feedo"
-  version "1.1.20"
+  version "1.1.21"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/ricardodantas/feedo/releases/download/v#{version}/feedo-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "f3ac11daf9c70a3306d51d0fbb002637e53ac0fd1a6e4f2b20b567e6998a4ad7"
+      sha256 "7546ed5a5d9307b60b192243b7a9ddc0881402e540ce2e911eb6df39d336e5d0"
     end
     on_intel do
       url "https://github.com/ricardodantas/feedo/releases/download/v#{version}/feedo-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "69a167daee9f94d3fb5685bde7d43cc8e4b37caa97dffb89eaaf0566cdb76abb"
+      sha256 "4f22067cbdd70913a549ca07b1ae6b4cb36252994500951e6861f7ec29b23043"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ricardodantas/feedo/releases/download/v#{version}/feedo-#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ccb9f1b4af621ac7f4bed546a0a481dd0817aa006bbebd341aa518d8ce65778c"
+      sha256 "0353058ee804ff98982b16f17242e049602ff3ed7f2e0c1b54be7b2652f25090"
     end
     on_intel do
       url "https://github.com/ricardodantas/feedo/releases/download/v#{version}/feedo-#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "88bbefe4416df71a2a34e64602913ea784c9f3d503b2dd7841cd80ff5fa9893b"
+      sha256 "6d443e25745c37a1c7a0569c1568220ed1c472944c8bccf1bedae8910e546591"
     end
   end
 
