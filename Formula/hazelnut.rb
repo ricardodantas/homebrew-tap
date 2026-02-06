@@ -1,28 +1,28 @@
 class Hazelnut < Formula
   desc "Terminal-based automated file organizer inspired by Hazel"
   homepage "https://github.com/ricardodantas/hazelnut"
-  version "0.2.34"
+  version "0.2.37"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/ricardodantas/hazelnut/releases/download/v#{version}/hazelnut-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "43385822005d32ebdfab3529d771ef5992aa322f7a942bd50b07f900386dc56b"
+      sha256 "d6fc3f7b00944f42df0633c86a5c2479b575bb8438cbaff0b00c33235ea933ac"
     end
     on_intel do
       url "https://github.com/ricardodantas/hazelnut/releases/download/v#{version}/hazelnut-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "0ce21214be0308cda87a7d6c5e7cd004ea127afa886b76224b1c37f2b2e80d3c"
+      sha256 "8ac16f6cffc5bbcf15123779e32f84d1d500012568b858215f4208767d7fed80"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ricardodantas/hazelnut/releases/download/v#{version}/hazelnut-#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1f343d666bcfa5d6f2815d05ef573e7b9cce339c8225e8361c97d3bcb5281ad6"
+      sha256 "a416807721be688c6552d7d84b03144a2454c1421a99e5708b1e157406fe0de8"
     end
     on_intel do
       url "https://github.com/ricardodantas/hazelnut/releases/download/v#{version}/hazelnut-#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e6eca39db063ccc2ff1732e1fcab079a622b1b6241f18fdda855f500c85e1c8e"
+      sha256 "57bd60c5506f26ea6e9826745f2a6d7ad7e7103682749425218a4d3a48984943"
     end
   end
 
