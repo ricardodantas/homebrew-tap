@@ -1,28 +1,28 @@
 class Perch < Formula
   desc "Beautiful terminal social client for Mastodon and Bluesky"
   homepage "https://github.com/ricardodantas/perch"
-  version "0.2.2"
+  version "0.2.3"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/ricardodantas/perch/releases/download/v#{version}/perch-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "5a28a92813f65b0c7e214897e06191c4cbaaf5fe7598db9e08b94492414d63c5"
+      sha256 "17e361ae161d4a8ec239cf7f42b00770bd8192e34e9e7097795f1a4eecf8e13b"
     end
     on_intel do
       url "https://github.com/ricardodantas/perch/releases/download/v#{version}/perch-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "6540c19e4639bf497a45fd784f97ff666cfca75e96954bc1a59d073f21effeff"
+      sha256 "5bbf6ef5bfda15d8825378284b7b520562f071fb32816bd9f2d11ae5a6bea14b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ricardodantas/perch/releases/download/v#{version}/perch-#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c766093e80f83ba2f0b98d761b18302d2df3aedbfb44d199c30409db49807bad"
+      sha256 "b02ba1667f0a97cb6a9bd947ba76e596608e9099f26bf050f7b4810d169a1f2a"
     end
     on_intel do
       url "https://github.com/ricardodantas/perch/releases/download/v#{version}/perch-#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1c8b7ba6ea6aedeb55d792a034694495d8e784f206dc11c334e06077f6d479ae"
+      sha256 "5b6a9203aedb86e3f95812dc0a0c0a2a46d1a00e8332dc3b418cfad18b25bc27"
     end
   end
 
