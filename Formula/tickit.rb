@@ -1,28 +1,28 @@
 class Tickit < Formula
   desc "Terminal-based task manager with CLI and TUI"
   homepage "https://github.com/ricardodantas/tickit"
-  version "0.4.3"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/ricardodantas/tickit/releases/download/v#{version}/tickit-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "528ac772dc7dbc5b81b0c078cefb6a1286c4c4597358ff712d25a0e3d615783c"
+      sha256 "45aef4408cc7108b300192164278a53f5905f818b4c0c9a1efa947408eb348eb"
     end
     on_intel do
       url "https://github.com/ricardodantas/tickit/releases/download/v#{version}/tickit-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "3adb9fdef6b3c6c64cebd331f9be6babe1b30710da4e6c1649f2f9a85f1846a1"
+      sha256 "46266f37b580dc9b6230c7ae66506b075429b82b9621fea1f37425d0f4009845"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ricardodantas/tickit/releases/download/v#{version}/tickit-#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1d6c895f91bd3b9747b85f203c0600b3571623b53c70453503011aec0a32d187"
+      sha256 "c81bbba2c1ea773cacf51b93f9fa023b9949bc3477af0e9271a88c3740d20be6"
     end
     on_intel do
       url "https://github.com/ricardodantas/tickit/releases/download/v#{version}/tickit-#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0729fb402c73dd3d66893864c515df62ea45edeb04116465a221a711ef063ac6"
+      sha256 "b9d16c327dfd03aa7e49e771b2a9dc32ddd7a0854aa08465d9b95eb1276df061"
     end
   end
 
