@@ -1,28 +1,28 @@
 class TickitSync < Formula
   desc "Self-hosted sync server for Tickit task manager"
   homepage "https://github.com/ricardodantas/tickit-sync"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/ricardodantas/tickit-sync/releases/download/v#{version}/tickit-sync-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "73823a5860feaeaf68392a102f1da079e13c033a9b4d855cb1a0fedf7b22611d"
+      sha256 "07ec0903ce9bb40079c36e2c6de36517fbe42023fb3af92ddb7cfa0e58eaa20c"
     end
     on_intel do
       url "https://github.com/ricardodantas/tickit-sync/releases/download/v#{version}/tickit-sync-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "e0622a2a463cf97a03371756161a2ea3e35559664dc64949602b578a365ec402"
+      sha256 "071f766ce048d767b055f70fe0fda39045b217ae9430969d5b2e77056418720e"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ricardodantas/tickit-sync/releases/download/v#{version}/tickit-sync-#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0bd830ee82e92411f806aa84d0ce02ef9b9b0840e3c621c75e4d53c18b9757db"
+      sha256 "5f055f6ca5b2f414ded7b82ea0ac968faad15c256abbf592e6b1cb9f2a754c08"
     end
     on_intel do
       url "https://github.com/ricardodantas/tickit-sync/releases/download/v#{version}/tickit-sync-#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "974c979ce283ebf00169d9d832263781afe3806b2c3dd65789c443cf1b98569a"
+      sha256 "d2823c0ed48c7b570d6be3cfdaa9e9803c589f05d305a433f6c2b37c0ec4726c"
     end
   end
 
