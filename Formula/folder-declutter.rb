@@ -3,6 +3,7 @@ class FolderDeclutter < Formula
     homepage "https://github.com/ricardodantas/folder-declutter"
     url "https://github.com/ricardodantas/folder-declutter/archive/refs/tags/v0.4.14.tar.gz"
     sha256 "5ba74ab07244782d9058c5d6dea4bb9ae3e9d4f072a928543f7b79fbcf17da15"
+    license "Apache-2.0"
 
     depends_on "rust" => :build
 

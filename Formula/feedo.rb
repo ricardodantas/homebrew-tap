@@ -2,7 +2,7 @@ class Feedo < Formula
   desc "A beautiful, fast, and modern terminal RSS reader built with Rust"
   homepage "https://github.com/ricardodantas/feedo"
   version "1.1.33"
-  license "MIT"
+  license "GPL-3.0-or-later"
 
   on_macos do
     on_arm do
