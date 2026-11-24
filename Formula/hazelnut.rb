@@ -2,7 +2,7 @@ class Hazelnut < Formula
   desc "Terminal-based automated file organizer inspired by Hazel"
   homepage "https://github.com/ricardodantas/hazelnut"
   version "0.3.2"
-  license "GPL-3.0"
+  license "GPL-3.0-or-later"
 
   on_macos do
     on_arm do

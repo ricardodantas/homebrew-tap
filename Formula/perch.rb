@@ -2,7 +2,7 @@ class Perch < Formula
   desc "Beautiful terminal social client for Mastodon and Bluesky"
   homepage "https://github.com/ricardodantas/perch"
   version "0.4.0"
-  license "MIT"
+  license "GPL-3.0-or-later"
 
   on_macos do
     on_arm do

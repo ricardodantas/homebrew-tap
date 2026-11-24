@@ -2,7 +2,7 @@ class Typefully < Formula
   desc "CLI client for the Typefully API. Create, schedule, and publish social media content from your terminal."
   homepage "https://github.com/ricardodantas/typefully-cli"
   version "0.1.0"
-  license "GPL-3.0"
+  license "GPL-3.0-only"
 
   on_macos do
     on_arm do
